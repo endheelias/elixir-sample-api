@@ -2,7 +2,7 @@ use Mix.Config
 
 # Configure your database
 config :recommendation_service, RecommendationService.Repo,
-  username: "1",
+  username: "postgres",
   password: "kVjfcKRz8LKetCnnS82N",
   database: "recommendation_service_dev",
   hostname: "recommendationservicedb.ccm4lwvxyj8s.us-east-1.rds.amazonaws.com",

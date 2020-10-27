@@ -1,4 +1,8 @@
-# RecommendationService
+# UserService
+
+
+## Description
+A simple project just to add and remove users, written in Elixir. The main goal is testing Elixir with simple operations. Postman Collection https://www.getpostman.com/collections/11e46807da23966d4b18
 
 To start your Phoenix server:
 

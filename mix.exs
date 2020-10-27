@@ -20,7 +20,9 @@ defmodule RecommendationService.MixProject do
   def application do
     [
       mod: {RecommendationService.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :httpoison],
+      # [applications: [:httpoison]]
+
     ]
   end
 
@@ -42,8 +44,10 @@ defmodule RecommendationService.MixProject do
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
-    ]
+      {:plug_cowboy, "~> 2.0"},
+      {:httpoison, "~> 1.6"},
+      # {:spotify_ex, "~> 2.0"}
+   ]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
