@@ -1,6 +1,5 @@
 # UserService
 
-
 ## Description
 A simple project just to add and remove users, written in Elixir. The main goal is testing Elixir with simple operations. Postman Collection https://www.getpostman.com/collections/11e46807da23966d4b18
 
@@ -14,10 +13,8 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Learn more
+## Next Steps
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+  * Auth methods
+  * Use a HTTP Client
+  * Unit Tests
